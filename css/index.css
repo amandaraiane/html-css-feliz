@@ -35,11 +35,10 @@ a:before{
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
+    transition: transform 100ms linear;
 }
 
 #button:hover{
-    background-color: #FFF;
-    color: #000;
-    transition: 0.5s;
+    transform: scale(1.08);
     cursor: pointer;
 }
